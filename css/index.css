@@ -1,6 +1,7 @@
 body {
     height: 100%;
     font-family: 'Libre Baskerville', serif;
+    width: fit-content;
     color: #264B3B;
     margin: 0;
 }
@@ -119,3 +120,91 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+@media only screen and (max-width: 1024px) {
+
+    .footer-container p {
+        font-size: 2vw;
+    }
+
+    .header-container {
+        display: none;
+    }
+
+    img.img-1 {
+        margin-left: 60px;
+    }
+
+    img.img-2 {
+        margin-right: 60px;
+    }
+
+    img.img-3 {
+        padding: 13vh 0 0 8vw;
+    }
+
+    .main-content {
+        margin: 10vh 0;
+    }
+
+    .order-cta btn {
+        width: 12vw;
+        padding: 3vw;
+        margin-top: 1vh;
+    }
+
+    .primary-text {
+        padding: 8vh 8vh 8vh 6vh;
+    }
+
+    p {
+        font-size: 2.5vw;
+    }
+
+    .secondary-text {
+        padding: 20vh 0vh 6vh 10vh;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .footer-container {
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .footer-container p {
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        text-align: center;
+        padding: 5vw;
+    }
+
+    .main-content img, p, h2 {
+        padding: 0 !important;
+    }
+
+    .main-content img {
+        margin: 0 !important;
+    }
+
+    .main-content div {
+        padding: 10px !important;
+    }
+
+    .order-cta btn {
+        width: 20vw;
+        padding: 4vw;
+    }
+
+    p {
+        font-size: 4.5vw;
+    }
+  }
