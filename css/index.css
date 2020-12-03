@@ -20,6 +20,7 @@ body {
 }
 
 h2 {
+    font-family: 'Libre Baskerville', serif;
     font-size: 4vh;
 }
 
@@ -126,6 +127,7 @@ ul {
     .footer-container p {
         font-size: 2vw;
     }
+
 
     .header-container {
         display: none;

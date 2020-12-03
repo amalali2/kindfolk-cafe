@@ -1,0 +1,38 @@
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   width: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 25px;
+  font-family: 'Roboto Mono', sans-serif;
+  border: 2px solid #264B3B;
+  color: #264B3B;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #264B3B;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #264B3B;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 0 40vh 10vw;
+    text-align: center;
+}
