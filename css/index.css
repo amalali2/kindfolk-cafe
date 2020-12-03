@@ -2,12 +2,7 @@ body {
     height: 100%;
     font-family: 'Libre Baskerville', serif;
     color: #264B3B;
-}
-
-.buis-about {
-    padding: 8vh 8vh 8vh 0vh;
-    grid-row: 1 / span 1;
-    grid-column: 6;
+    margin: 0;
 }
 
 h2 {
@@ -56,14 +51,54 @@ li {
     padding: 2vw 1vw;
 }
 
+.order-cta {
+    background-color: #264B3B;
+    color: #fff;
+    height: 30vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    line-height: 3px;
+}
+
+.order-cta btn {
+    border: 1px solid;
+    text-align: center;
+    width: 5vw;
+    padding: 1vw;
+    margin-top: 1vh;
+    font-family: 'Roboto Mono', sans-serif;
+    cursor: pointer;
+}
+
+.order-cta btn:hover {
+   color: #264B3B;
+   background-color: #fff;
+}
+
 p {
     font-family: 'Roboto Mono', sans-serif;
     font-size: 1.5vw;
 }
+
+.primary-text {
+    padding: 8vh 8vh 8vh 0vh;
+    grid-row: 1 / span 1;
+    grid-column: 6;
+}
+
 .main-content {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(2, 5fr);
+}
+
+.secondary-text {
+    padding: 12vh 0vh 5vh 3vh;
+    grid-row: 2 / span 1;
+    grid-column: 4;
 }
 
 ul {
