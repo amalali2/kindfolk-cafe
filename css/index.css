@@ -5,6 +5,19 @@ body {
     margin: 0;
 }
 
+.footer-container {
+    padding: 0 6vw !important;
+}
+
+.footer-container div {
+    padding: 2vw 1vw;
+    font-size: 1vw;
+}
+
+.footer-container p {
+    font-size: 1vw;
+}
+
 h2 {
     font-size: 4vh;
 }
@@ -17,7 +30,6 @@ h2 {
 
 .header-container, .footer-container {
     justify-content: space-between;
-    align-items: flex-end;
     display: flex;
     padding: 2vw;
     width: 100%;
