@@ -4,6 +4,16 @@ body {
     color: #264B3B;
 }
 
+.buis-about {
+    padding: 8vh 8vh 8vh 0vh;
+    grid-row: 1 / span 1;
+    grid-column: 6;
+}
+
+h2 {
+    font-size: 4vh;
+}
+
 .header, .footer {
     font-family: 'Roboto Mono', sans-serif;
     display: inline-flex;
@@ -18,12 +28,42 @@ body {
     width: 100%;
 }
 
+img.img-1{
+    grid-column: 4;
+    grid-row: 1 / span 5;
+    height: 60vh;
+}
+
+img.img-2 {
+    grid-column: 7;
+    grid-row: 1 / span 5;
+    height: 37vh;
+    padding: 16vh 0 0 0;
+}
+
+img.img-3 {
+    padding: 13vh 0 0 1vw;
+    grid-column: 6;
+    grid-row: 2 / span 3;
+    height: 30vh;
+}
+
 .footer-container {
     border-top: 1px solid;
 }
 
 li {
     padding: 2vw 1vw;
+}
+
+p {
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 1.5vw;
+}
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(2, 5fr);
 }
 
 ul {
